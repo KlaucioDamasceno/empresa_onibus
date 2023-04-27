@@ -112,6 +112,8 @@ public class App {
 			rota.encerrarViagem();
 			System.out.println(rota.toString());
 		}
+		
+		System.out.println("teste");
 	
 	}
 	
