@@ -113,7 +113,6 @@ public class App {
 			System.out.println(rota.toString());
 		}
 		
-		System.out.println("teste");
 	
 	}
 	
