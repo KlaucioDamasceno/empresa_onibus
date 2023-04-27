@@ -11,6 +11,7 @@ import javax.swing.plaf.synth.SynthToggleButtonUI;
 public class App {
 
 	public static void main(String[] args) {
+		
 		//Criar Lista de Proprietários da Empresa
 		ArrayList<Proprietario> proprietarios = new ArrayList<Proprietario>();
 		//Setar Lista de Proprietários da Empresa
@@ -32,6 +33,7 @@ public class App {
 		Scanner in = new Scanner(System.in);
 		//Iniciar uma viagem;
 		
+	
 		
 		//Cadastrar um rota
 		System.out.println("Deseja cadastrar uma rota?");
@@ -107,7 +109,7 @@ public class App {
 		in.close();
 		
 		for(Rota rota : rotas) {
-			rota.fecharEncerrarViagem();
+			rota.encerrarViagem();
 			System.out.println(rota.toString());
 		}
 	
